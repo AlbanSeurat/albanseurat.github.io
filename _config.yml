@@ -7,7 +7,7 @@ keywords: "alban seurat, technology, computer science, Java, C++, Pixel, Spring 
 favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
 google-tracking-id: UA-16296685-1
-disqus-shortname:
+disqus-shortname: false
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
