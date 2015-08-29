@@ -6,7 +6,7 @@ description: "Blog and website of Alban Seurat, blogging mainly for tech. Opinio
 keywords: "alban seurat, technology, computer science, Java, C++, Pixel, Spring boot"
 favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
-google-tracking-id:
+google-tracking-id: UA-16296685-1
 disqus-shortname:
 
 # Navigation bar links
@@ -39,27 +39,30 @@ reddit-share: False
 # Career variables
 
 events:
-  - image: "/img/career/nespresso.jpg"
-    date: "September 2014 - Today"
-    description: ""
+  - image: "/img/career/nespresso.png"
+    date: "Mars 2014 - Today"
+    description: "Consulting to help people brew their coffee..."
   - image: "/img/career/tretonine.jpg"
-    date: "October 2012 - August 2014"
-    description: ""
+    date: "February 2011 - November 2013"
+    description: "My first two experience creating consulting and e-commerce startups"
   - image: "/img/career/experian.jpg"
-    date: "October 2011 - September 2012"
-    description: ""
+    date: "April 2008 - January 2011"
+    description: "<a href='http://www.experian.com/corporate/experian-decision-analytics.html' target='_new'>Experian</a> - Solution Architect designing scoring software for bank"
   - image: "/img/career/experian.jpg"
-    date: "August 2011 - Today"
-    description: ""
-  - image: "/img/career/popfactory.png"
-    date: "April 1999 - April 2004"
-    description: ""
-  - image: "/img/career/experian.png"
-    date: "April 1999 - April 2004"
-    description: ""
-  - image: "/img/career/unice.jpeg"
+    date: "May 2004 - April 2008"
+    description: "<a href='http://www.experian.com/corporate/experian-decision-analytics.html' target='_new'>Experian</a> - Development Team leader promoting agile methodology and coding C++ between 5 and 8PM..."
+  - image: "/img/career/popfactory.jpg"
+    date: "November 2000 - April 2004"
+    description: "Trying small company, help a startup being valuable with my code"
+  - image: "/img/career/experian.jpg"
+    date: "April 1999 - October 2001"
+    description: "<a href='http://www.experian.com/corporate/experian-decision-analytics.html' target='_new'>Experian</a> - First experience developing in C++ and Java back when Internet was running on 56k modem"
+  - image: "/img/career/unice.png"
     date: "september 1997 - June 1999"
-    description: "Université Nice Sophia Antipolis @ <a href=\"http://iut.unice.fr/\" target=\"_blank\">Department of Computer Science</a>"
+    description: "Université Nice Sophia Antipolis @ <a href='http://iut.unice.fr/' target='_new'>Department of Computer Science</a>"
+  - image: "/img/career/exel100.gif"
+    date: "1989"
+    description: "Write my first basic program in Exel 100 computer"
 
 # First image of the Career timeline
 career-img: "/img/career/default.jpg"
