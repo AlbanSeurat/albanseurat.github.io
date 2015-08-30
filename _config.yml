@@ -4,8 +4,8 @@ url: "http://www.albanseurat.com"
 title: "Alban Seurat"
 description: "Blog and website of Alban Seurat, blogging mainly for tech. Opinions expressed are mine."
 keywords: "alban seurat, technology, computer science, Java, C++, Pixel, Spring boot"
-favicon: "/img/favicon.ico"
-black-favicon: "/img/black-lab-glass.ico"
+favicon: false
+black-favicon: false
 google-tracking-id: UA-16296685-1
 disqus-shortname: false
 
