@@ -13,7 +13,7 @@ Then, here an insight of what Spring brings to OSGI…
 
 Usually, OSGi services (obviously we are in the SOA world) has to be declared by using an API, OSGI Dynamic Service allow you to declare by configuration your service but you can’t manage services dependencies (half of the path has been done, “dommage”). Here an example how to declare and get service reference within OSGI :
 
-{% highlight java linenos %}
+{% highlight java %}
 class Activator extends BundleActivator {
  public void start(BundleContext context) {
   MySecondService s2 = context.getService(

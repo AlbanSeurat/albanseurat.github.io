@@ -17,7 +17,7 @@ A simple example I have used lately, I’ve made some test on GWT (Google Web Ki
 
 When in GWT, you want to publish a “service” to your GUI you have to use 2 interfaces:
 
-{% highlight java linenos %}
+{% highlight java %}
 public interface EchoService extends RemoteService {
   public String echoString(String stringToEcho);
 }
@@ -25,7 +25,7 @@ public interface EchoService extends RemoteService {
 
 and
 
-{% highlight java linenos %}
+{% highlight java %}
 public interface EchoServiceAsync {
   void echoString(String stringToEcho, AsyncCallback async);
 }
