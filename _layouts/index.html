@@ -9,7 +9,9 @@
 
   {% include header.html %}
 
-  {% for page in site.pages %}
+  {% assign page_list = site.pages | sort: "weight" %}
+
+  {% for page in page_list %}
 
     {% if page.section-type == "about" %}
 

@@ -15,8 +15,8 @@ disqus-shortname: false
 
 pages_list:
   About: 'about'
-  Blog: 'blog'
   Career: 'career'
+  Blog: 'blog'
   Contact: 'contact'
 
 background-img: "/img/intro-bg.jpg"
