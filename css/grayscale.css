@@ -144,7 +144,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url( {{ site.background-img }} ) no-repeat bottom center scroll;
+    background: url( {{ site.intro-img }} ) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -177,6 +177,28 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+    }
+}
+
+.header {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url( {{ site.background-img }} ) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media(min-width:767px) {
+    .header {
+        height: 20%;
+        padding: 0;
     }
 }
 
@@ -255,7 +277,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .download-section {
@@ -278,7 +300,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
     }
 
     .download-section {
@@ -395,17 +417,14 @@ body {
     -webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-article {
-    border-radius : 10px;
-    background-color: #444;
-    padding: 40px 40px 30px;
-}
-
-article p {
-    font-size: 14px;
-}
-
 @media(min-width:767px) {
+
+    article {
+        border-radius : 10px;
+        padding: 40px 40px 30px;
+        background-color: #444;
+    }
+
     article p {
         font-size: 17px;
     }

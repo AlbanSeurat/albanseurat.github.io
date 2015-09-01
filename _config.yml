@@ -19,7 +19,8 @@ pages_list:
   Blog: 'blog'
   Contact: 'contact'
 
-background-img: "/img/intro-bg.jpg"
+intro-img: "/img/intro-bg.jpg"
+background-img : "/img/bg.jpg"
 
 # About variables
 
