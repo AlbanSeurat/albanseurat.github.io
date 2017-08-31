@@ -42,7 +42,7 @@ reddit-share: False
 events:
   - image: "/img/career/octo.png"
     date: "September 2017 - Today"
-    description: "Software Crafmanship consulting" 
+    description: "Software Crafmanship advocate" 
   - image: "/img/career/nespresso.png"
     date: "Mars 2014 - August 2017"
     description: "Consulting to help people brew their coffee..."
