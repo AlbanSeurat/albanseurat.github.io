@@ -40,8 +40,11 @@ reddit-share: False
 # Career variables
 
 events:
+  - image: "/img/career/octo.png"
+    date: "September 2017 - Today"
+    description: "Software Crafmanship consulting" 
   - image: "/img/career/nespresso.png"
-    date: "Mars 2014 - Today"
+    date: "Mars 2014 - Aout 2017"
     description: "Consulting to help people brew their coffee..."
   - image: "/img/career/tretonine.jpg"
     date: "February 2011 - November 2013"
