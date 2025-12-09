@@ -2,8 +2,8 @@
 
 url: "http://www.albanseurat.com"
 title: "Alban Seurat"
-description: "Blog and website of Alban Seurat, blogging mainly for tech. Opinions expressed are mine."
-keywords: "alban seurat, technology, computer science, Java, C++, Pixel, Spring boot"
+description: "Me myself and I"
+keywords: "alban seurat, technology, computer science"
 favicon: false
 black-favicon: false
 google-tracking-id: UA-16296685-1
@@ -16,7 +16,6 @@ disqus-shortname: false
 pages_list:
   About: 'about'
   Career: 'career'
-  Blog: 'blog'
   Contact: 'contact'
 
 intro-img: "/img/intro-bg.jpg"
@@ -26,29 +25,21 @@ background-img : "/img/bg.jpg"
 
 me-img: "/img/me.jpg"
 
-# Blog variables
-paginate: 15
-
-paginate_path: "blog/page:num"
-
-post-preview-words: 128
-
-fb-share: False
-twitter-share: True
-reddit-share: False
-
 # Career variables
 
 events:
+  - image: "/img/career/kleis.webp"
+    date: "September 2019 - Today"
+    description: "Things you own end up owning you and vice versa"
   - image: "/img/career/octo.png"
-    date: "September 2017 - Today"
-    description: "Software Crafmanship advocate" 
+    date: "September 2017 - August 2019"
+    description: "Presenting Powerpoint to CxOs to talk about Conway's law"
   - image: "/img/career/nespresso.png"
     date: "Mars 2014 - August 2017"
     description: "Consulting to help people brew their coffee..."
   - image: "/img/career/tretonine.jpg"
     date: "February 2011 - November 2013"
-    description: "My first two experience creating consulting and e-commerce startups"
+    description: "My first experience creating an e-commerce startup"
   - image: "/img/career/experian.jpg"
     date: "April 2008 - January 2011"
     description: "<a href='http://www.experian.com/corporate/experian-decision-analytics.html' target='_new'>Experian</a> - Solution Architect designing scoring software for bank"
@@ -73,14 +64,10 @@ career-img: "/img/career/default.jpg"
 
 # Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
 social:
-  - title: "rss"
-    url: "/feed.xml"
   - title: "linkedin"
     url: "http://ch.linkedin.com/in/AlbanSeurat"
   - title: "github"
     url: "https://github.com/AlbanSeurat"
-  - title: "twitter"
-    url: "https://twitter.com/albanseurat"
 
 404-img: "/img/labtocat.png"
 
